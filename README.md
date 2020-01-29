@@ -64,12 +64,6 @@ All containers list.
 docker ps -a 
 ```
 
-And stop containers list.
-
-```
-docker ps -a -q
-```
-
 ## AwakeSleep
 
 We can do these with container id.
