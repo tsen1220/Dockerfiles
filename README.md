@@ -19,13 +19,13 @@ Docker container requires images to run.
 Therefore, We need to build docker image from Dockerfile.
 
 ```
-docker build -t <image_name>:tag 
+docker build -t <image_name>:tag .
 ```
 
 For example: 
 
 ```
-docker build -t  example:1.0
+docker build -t  example:1.0 .
 ```
 
 To decrease size, we create dockerignore file to ignore unnecessary files.
