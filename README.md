@@ -34,7 +34,7 @@ Hint: -t means --tag.
 
 ### Run Docker Container With Docker Image In Background
 
-After creating docker image, we can run docker container to start server.
+After creating docker image, we can create docker container to start server.
 
 ```
 docker run -p <device_port>:<container_port> -d <image_name>:tag
